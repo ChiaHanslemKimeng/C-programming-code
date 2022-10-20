@@ -1,0 +1,31 @@
+      ALGORITHM
+   Start
+1)input three numbers.
+2)swap numbers by inserting first number in third, second number in first and third number in second.
+   End
+
+  #include<stdio.h>
+  int main ()
+  {
+     int first_number,second_number,third_number;
+     printf("Enter first number: /n");
+     scanf("%d",&first_number);
+     printf("Enter second number: /n");
+     scanf("%d",&second_number: /n");
+     print("Enter third number: /n");
+     scanf("%d",&third_number);
+     printf("Before swapping /n");
+     printf("First number=%d /n",first_number);
+     printf("Second number=%d /n", second_number);
+     printf("Third number=%d /n", third_number);
+     first number=third_number;
+     second number=first_number;
+     third number=second_number;
+     printf("After swapping /n");
+     printf("First number=%d /n",third number);
+     printf("Second number=%d /n",first number);
+     printf("Third number=%d /n",second number);
+
+     return 0;
+   
+  } 
